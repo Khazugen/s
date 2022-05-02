@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Shell xmlns="http://xamarin.com/schemas/2014/forms"
+       xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+        xmlns:views="clr-namespace:s"
+       xmlns:controls="clr-namespace:s"
+       x:Class="s.AppShell">
+
+    <FlyoutItem FlyoutDisplayOptions="AsMultipleItems">
+
+            <ShellContent Title="Mercure" 
+                          Icon="mercure.png"
+                          ContentTemplate="{DataTemplate views:MercurePage}"/>
+            <ShellContent Title="Venus" 
+                          Icon="venus.png"
+                          ContentTemplate="{DataTemplate views:VenusPage}"/>
+            <ShellContent Title="Earth" 
+                          Icon="venus.png"
+                          ContentTemplate="{DataTemplate views:EarthPage}"/>
+            <ShellContent Title="Mars" 
+                          Icon="venus.png"
+                          ContentTemplate="{DataTemplate views:MarsPage}"/>
+    </FlyoutItem>
+</Shell>
