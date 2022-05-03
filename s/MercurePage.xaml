@@ -25,6 +25,8 @@
                     </DataTemplate>
                 </ListView.ItemTemplate>
             </ListView>
+            <Button x:Name="AddButton" Text="Přidej" Clicked="AddButton_Clicked"/>
         </StackLayout>
+        
     </ContentPage.Content>
 </ContentPage>

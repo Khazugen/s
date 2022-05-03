@@ -34,5 +34,10 @@ namespace s
                InfoListView.ItemsSource = InfoList;
 
         }
+
+        private void AddButton_Clicked(object sender, EventArgs e)
+        {
+
+        }
     }
 }
